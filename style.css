@@ -1,0 +1,66 @@
+a
+{
+	color: #ffffff;
+}
+
+body
+{
+	background: #d4d4d4;
+	color:#2c2c2c;
+	font-family:Arial;
+	font-size: 16px;
+	margin: 0px;
+}
+
+header
+{
+	background: #562065;
+	color:#ffffff;	
+	padding: 0.5em;
+	text-align: left;
+}
+header #logo img
+{
+	width: 125px;
+}
+header figure , header div
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+header div
+{
+	float: right;
+
+}
+header div ul,header div form
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 3em;
+}
+#buscar,#ya{
+
+	display: inline-block;
+	vertical-align: top;
+}
+#menutop
+{
+	background: black;
+	float:right;
+	position: relative;
+
+}
+#menutop ul
+{
+	float:right;
+	padding:3px;
+
+}
+#menutop ul li {
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	
+
+}
