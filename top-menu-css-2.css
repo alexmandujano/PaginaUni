@@ -1,0 +1,675 @@
+body,div,ul,li,h1,h2,p{margin:0;padding:0;}
+li{list-style:none;}
+h1,h2{font-size:100%;font-weight:normal;}
+.shadow-1{-moz-box-shadow:0 0 10px #393939;-webkit-box-shadow:0 0 6px #393939;box-shadow:0 0 6px #393939;}
+.bullet,.bullet li{padding-left:5px;}
+.list li{font-size:14px;list-style:circle;padding-top:6px;padding-bottom:5px;padding-right:0;}
+.menu li{color : orange;}
+body{font-family:Helvetica,Arial,sans-serif;font-size:14px;}
+a:link{ text-decoration: none;}
+.top-menu {color:#FFF;font-size:12px;font-weight:700;margin-bottom:2px;}
+.top-menu{display:none;}
+.top-menu-links{display:none;}
+
+
+
+#block-menu-menu-profile-user{position:absolute;left:426px;color:white;}
+#block-menu-menu-profile-user li{float:left;margin-right:34px;margin-bottom:3px;margin-top:10px;background:url("sprite_bullets.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_bullets.png*/) no-repeat scroll 0 1px transparent;padding-left:18px;}
+#block-menu-menu-profile-user li a:hover{text-decoration:underline}
+#block-menu-menu-profile-user li a:visited{color:white;}
+#block-menu-menu-profile-user li a:link{color:white;}
+
+
+.top-menu{background:#3b3a3a;}
+
+
+#block-block-2{border-right:1px solid #222;float:left;height:78px;padding:30px 25px 23px 120px;width:255px;}
+#block-block-2 h2{margin-bottom:15px;}
+#block-block-2 p{color:#9a9a9a;font-size:11px;line-height:15px;}
+
+
+.top-menu-links{background:url("sprite_top_menu.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprite_top_menu.png*/) no-repeat 0 11px;float:left;margin-top:23px;padding-left:90px;padding-bottom:22px;width:200px;}
+.top-menu-links .bullet li{background:url("sprite_bullets.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_bullets.png*/) no-repeat 0 5px !important;}
+.top-menu-links .block{border-left:1px solid #535353;border-right:1px solid #222;float:left;height:165px;padding:0 30px 22px;width:160px;}
+#block-menu-menu-applicant-menu{border-left:none;}
+#block-menu-menu-community-menu{border-right:none;}
+.top-menu-links .block a{color:#9C9C9C;}
+.top-menu-links .block a:hover{text-decoration:underline;}
+.login-error{background:#ffe4e1;color:#800000;padding:0.5em;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+.top-menu-profile{padding:22px 0;height:160px;overflow:hidden;}
+#block-ulima-blocks-ulima-blocks-miniprofile{background:#3B3A3A;}
+.profile-miniprofile{border-right:1px solid #535353;padding:20px 0;}
+.profile-miniprofile img{border:1px solid #5b5b5b;display:block;float:left;margin-right:10px;padding:5px;}
+.profile-miniprofile h4{color:#fff;font-size:13px;margin-top:15px;}
+.profile-miniprofile h2{font-size:36px !important;font-weight:400 !important;margin:0 25px 5px 0;}
+.profile-miniprofile a{text-decoration:none;}
+.profile-miniprofile a:hover{text-decoration:underline;}
+.profile-miniprofile-data .data,.profile-miniprofile-data .data a{color:#f68933;}
+.profile-miniprofile-data{color:#fff;font-size:11px;height:15px;text-transform:capitalize;}
+.profile-miniprofile-data .data a{text-transform:none;}
+a.profile-edit{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -276px -99px;color:#949494 !important;display:block;float:left;font-size:11px;height:15px;margin-top:5px;padding:10px 0 0 25px;text-decoration:none;}
+.logout-button-profile a{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -276px -182px;color:#949494 !important;display:block;font-size:11px;height:15px;padding:6px 0 0 25px;text-decoration:none;}
+.logout-button-profile{font-size:12px;margin-left:10px;padding-top:14px;display:block;float:left;}.logout-button{font-size:12px;margin-left:10px;padding-top:14px;display:block;float:left;}
+.profile-ulima{color:#fff;height:120px;padding:20px 0;}
+.profile-ulima h3{font-size:15px;margin-left:50px;}
+.profile-ulima a{color:#fff;text-decoration:none;}
+.profile-ulima a:hover{color:#fff;text-decoration:underline;}
+.profile-ulima-data{background:#212121;font-size:12px;height:40px;margin:20px 0 20px 50px;}
+.profile-ulima-data .data{border-left:1px solid #424242;border-right:1px solid #000;display:block;float:left;height:20px;line-height:20px;padding:10px;text-align:center;width:110px;}
+.profile-ulima-data .data-first{border-left:none;}
+.profile-ulima-data .data-last{border-right:none;}
+.profile-ulima-data small{background:#488131;display:block;float:left;height:10px;line-height:12px;margin-right:10px;padding:3px 5px 7px;text-align:center;width:10px;}
+.profile-ulima .list li{display:block;float:left;margin-left:25px;}
+#block-menu-menu-profile-user h2{display:none;}
+.header{height:100px;position:relative;}
+.top-tabs{-moz-border-radius:0 0 7px 7px;-webkit-border-radius:0 0 7px 7px;border-radius:0 0 7px 7px;background-color:#393939 !important;color:#FFF;cursor:pointer;height:20px;font-size:13px;padding:5px 5px 0;position:absolute;text-transform:uppercase;}
+.tabs-container .top-tabs{background-color:#393939 !important;}
+.top-tabs li{display:inline;padding:0 7px;}
+.button-container{z-index:1;}
+#links-button{right:115px;top:0;}
+#links-button ul{padding:0 10px;}
+#login-button,#login-profile-button{background:#9c9999 url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -270px -79px;padding-left:27px;right:-6px;top:0;}
+.user-button{background:#9c9999 url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -273px -55px !important;padding-left:31px !important;}
+.top-tabs:hover,.top-tabs-active{background-color:#393939 !important;}
+.content-top{background:url("sprite_background.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_background.png*/) repeat-x;}
+.site-branding{padding-top:8px;}
+.block-search{float:right;margin-top:-38px;}
+.block-search .form-text,.search-form .form-text{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -117px -130px;border:none;display:block;float:left;color:#858585;font-size:12px;height:13px;padding:7px;margin-right:-11px;width:172px;}
+.block-search .form-submit,.search-form .form-submit{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -116px -68px;border:none;display:block;float:left;height:27px;text-indent:-9999px;width:29px;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;}
+.block-search form{padding:0 0 0 20px;}
+.block-search.block-content{width:240px;}
+.block-search .form-text{width:177px;}
+.sidebar .block-search{float:none;margin-top:0;}
+.search-sidebar{margin-bottom:1em;}
+a.search-sidebar-link{display:block;font-size:11px;float:right;padding-top:10px;}
+.margin-special{padding-top:14px;padding-right:37px;}
+.sidebar input{width:260px;}
+.sidebar img{border:none !important;padding:0 !important;margin-left:-5px;}
+.sidebar .block-openx img{margin-left:0;}
+.sidebar .buttons-sidebar{margin:0;padding:0;}
+.sidebar .buttons-sidebar .block-content{margin:0;padding:0 0 15px 15px;}
+.sidebar .buttons-sidebar img{border:none;margin:0;padding:0;}
+.highlighted-content,.slider-container{height:364px;overflow:hidden;position:relative;}
+.not-front .highlighted-content,.highlight-image{height:210px;}
+.highlight-image{position:relative;}
+.highlight-image h2{background:url("title_highlight_image.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/title_highlight_image.png*/) repeat-x 0 0;bottom:0;color:#fff;display:block;font-size:20px;height:20px;left:0;padding:12px 15px 11px;position:absolute;text-align:right;width:930px;}
+#views-cycle-banners_home-block li{position:relative;height:364px;width:960px;}
+#views-cycle-banners_home-block img{float:left;}
+.teaser-content{background:url("sprite_repeat_x.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_repeat_x.png*/) repeat-x 0 -363px;bottom:-121px;height:375px;padding:103px 0 0 10px;position:absolute;right:0;width:275px;z-index:98;}
+.teaser-meta{padding-bottom:22px;}
+.slider-category a{color:#F08E3F;}
+.slider-pager{position:absolute;right:100px;bottom:0;z-index:99;}
+.slider-pager li{cursor:pointer;display:block;float:left;height:23px;width:36px;}
+.slider-pager .next{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -108px 0;}
+.slider-pager .next:hover{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -72px 0;}
+.slider-pager .prev{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -36px 0;}
+.slider-pager .prev:hover{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat 0 0;}
+.group-context-group-24 .highlighted-content,.group-context-group-25 .highlighted-content{height:364px !important;}
+.not-front .highlighted-content,.highlight-image{height:210px;}
+.highlight-image{position:relative;}
+.content-body{background:url("sprite_background.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_background.png*/) repeat-x 0 -502px;}
+.body-container{background:#fff;padding-top:40px;position:relative;}
+.front .body-container{padding-top:10px;}
+.body-container img{border:1px solid #d7d7d7;padding:8px;}
+.about-info{background:#f1f1f1;clear:both;}
+.highlight-post img{display:block;}
+.highlight-post .readmore{float:left;margin:10px 2px;}
+.highlighted-content .readmore{margin:10px 0;}
+.highlight-post ul{margin-left:-14px;}
+.highlight-post li{display:block;float:left;height:250px;padding:20px 0 20px 34px;width:292px;}
+.highlight-post li .readmore a{float:left;}
+.post-list{padding:20px 0 0;}
+.post-list img{display:block;float:left;margin-right:20px;}
+.post-list-title{background:#d0cece;height:20px;margin-bottom:20px;padding:7px 15px 6px 20px;position:relative;}
+.post-list-title .readmore{display:block;float:right;margin-left:5px;}
+.post-list ul{clear:both;margin-left:5px;}
+.post-list li{display:block;float:left;margin:0 0 0 16px;padding:0 10px 10px 0;width:185px;}
+.gray-corner,.post-list-title span{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -14px -108px;display:block;height:42px;left:-6px;position:absolute;top:0;width:6px;}
+.post-list-highlight{margin:20px 0 10px 0;overflow:hidden;padding:0 10px 0 20px;}
+.post-container{float:left;width:370px;}
+.view-faculty-featured-posts .category,.view-faculty-featured-news .category,.blogs .category,.news .category{clear:both;padding-top:2px;}
+.category{border-right:none !important;float:left;}
+.category li{font-size:11px;float:left;}
+.calendar-list ul small{border-right:none;}
+.post{border-bottom:1px solid #e2e2e2;}
+.front .post{border-bottom:1px solid #e2e2e2;height:75px;}
+.post-stretch{float:left;margin:0 10px;width:200px;}
+.front .post-first{height:320px;overflow:hidden;}
+.post-data{color:#7D6D6D;}
+.feature-info .post{border-bottom:none;}
+.front .feature-info .post{border-bottom:1px solid #e2e2e2;min-height:86px;padding-bottom:1em;}
+.calendar-date{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -204px -33px;display:block;float:left;height:48px;margin:15px 7px 10px 0;padding:0 10px;text-align:center;width:28px;}
+.calendar-date-front{margin:5px 7px 5px 0;}
+.feature-info{position:relative;margin-top:2em;}
+.front .feature-info{margin-top:0;}
+.feature-info h4 .title-featured-content{background:#888686;color:#fff;display:block;font-size:12px;height:22px;padding:11px 10px 4px 5px;}
+.feature-info h4 .title-featured-left{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -117px -26px;display:block;float:left;height:42px;left:-7px;position:absolute;top:0;width:7px;}
+.feature-info h4 .title-featured-right{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -127px -25px;display:block;float:left;height:16px;position:absolute;top:10px;right:-9px;width:9px;}
+.feature-info p{clear:both;}
+.panel-3col{clear:both;margin-top:20px;}
+.sidebar{margin-left:40px;}
+.sidebar h2 span{display:block;height:41px;position:absolute;right:-5px;top:0;width:86px;}
+.sidebar .block-content{background:#EEE;padding:20px;}
+.sidebar .bullet{background:url("line_sidebar.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/line_sidebar.png*/) repeat-x 0 2px #eee;margin-bottom:0;margin-top:-4px;padding-top:22px;}
+.sidebar .bullet ul{padding-left:12px;}
+.sidebar .bullet li a{font-size:12px;text-decoration:none;}
+.sidebar  a{color:#434343;}
+.sidebar  a:hover{color:#F68933;}
+.grid-alter-8,.grid-alter-16{display:inline;float:left;position:relative;}
+.grid-alter-8{width:480px;}
+.grid-alter-16{width:960px;}
+.big-link a{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat 0 -244px;color:#FFF !important;display:block;font-size:20px;margin:20px 0 0;text-shadow:-1px -1px 1px #333;padding:14px 0 14px 25px;width:255px;}
+.big-link a:hover{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat 0 -293px;}
+.view-academic-info-top{margin-top:1em;}
+.view-academic-info-top a{font-size:13px;}
+.view-academic-info-top h2{font-size:20px;margin:10px 0;}
+.view-academic-info-top h2 a{color:#252525;}
+.view-academic-info-top a:link{color:#252525;}
+.view-academic-info-top a:hover{color:#F68933;}
+.view-academic-info-top a:visited{color:#999;}
+.view-academic-info-top .list{padding-left:0;}
+.view-academic-info-top ul{padding-left:14px;}
+.view-academic-info-top ul ul{padding-left:0;}
+.view-academic-info-top li.views-row{border-right:1px solid #CCC;float:left;min-height:300px;padding:0 10px;}
+.view-academic-info-top img{padding:5px;}
+.view-academic-info-top li.views-row-last{border-right:none;}
+.page-node-502 #block-ulima-blocks-ulima-blocks-dependency-top{width:960px;}
+.page-node-502 #block-ulima-blocks-ulima-blocks-dependency-top h3{display:none;}
+.academic_info_bottom_list{margin-top:40px;}
+.academic_info_bottom_list li{font-size:13px;line-height:1.1;margin-bottom:4px;}
+.academic_info_bottom_list .bullet li{background-position:0 6px;background-position-x:0;background-position-y:6px;}
+.academic_info_bottom_list a:link{color:#666;}
+.academic_info_bottom_list a:hover{color:#F68933;}
+.academic_info_bottom_list li.views-row{border-right:none;width:422px;}
+.academic_info_bottom_list .views-row-1 h2,.academic_info_bottom_list .views-row-2 h2{background:#D0CECE;color:#FFF;padding:5px 0 5px 42px;}
+.academic_info_bottom_list .views-row-1 h2{margin-left:-42px;}
+.academic_info_bottom_list .views-row-2 h2{margin-right:-42px;}
+.academic_info_bottom_list .views-row-2 ul{padding-left:40px;}
+.academic_info_bottom_list h2 a{background:#D0CECE;color:#FFF;display:block;padding:7px 7px 7px 20px;}
+.atachment{float:left;font-size:12px;margin:20px 0 3px;}
+.atachment a{color:#575757;}
+.atachment img{border:none;padding:0;}
+.atachment .field-item{background:#F1F1F1;float:left;margin:0 10px;padding:5px 10px;}
+.node-type-publication .node{width:100%;}
+.publication-container{color:#575757;float:left;}
+.node-edit .field-name-field-publication-num-image{float:left;width:218px;margin-right:1em;}
+.page-node-edit .field-name-field-publication-num-image,.page-node-add .field-name-field-publication-num-image{float:none;width:auto;margin-right:0;}
+.publication-text-container{float:left;width:650px;}
+.publication-text-container h2{font-weight:bold;padding:10px 0 0;}
+.publication-text-container h2 a{color:#575757;}
+.publication-author{color:#F0944B;font-size:13px;padding-bottom:13px;}
+.publication-edition{color:#6D6D6d;font-size:12px;padding-bottom:8px;}
+.view-publications{border-right:1px solid #DADCDC;}
+.view-publications li{border-bottom:1px solid #DADCDC;margin:0 14px 0 24px;padding:12px 10px;}
+.view-publications .pager li{border-bottom:none;margin:0;padding:0;margin-right:10px;}
+.view-publications img{padding:5px;margin-right:10px;}
+.view-publications .views-row h2{padding-bottom:3px;padding-top:10px;}
+.view-publications h2 a{color:#575757;}
+.view-publications .publication-author{padding-bottom:10px;}
+.node-a-info-menu .field-item{padding-bottom:1em;}
+.node-a-info-menu .field-label{padding-bottom:1em;}
+.schedule-table{border-bottom:1px solid #d0cece;color:#696969;font-size:11px;line-height:1.05em;}
+.schedule-table h3{font-weight:700;padding-top:12px;}
+table.schedule-table p{font-size:11px;line-height:1em;padding:3px 0;}
+.schedule-table small{color:#908f8f;}
+.schedule-table thead{background:#d0cece;}
+.schedule-table th{color:#FFF;font-size:17px;text-transform:uppercase;padding:10px 10px 7px;}
+.schedule-table td{background:url("table_bullet.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/table_bullet.png*/) no-repeat 13px 25px;border-left:1px solid #D0CECE;border-right:1px solid #D0CECE;padding:13px 10px 13px 25px;}
+.user-cite{color:#444;background:url("quotes.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/quotes.png*/) no-repeat 11px 27px #f8f6f6;border:1px solid #d0cece;font-size:12px;padding:28px 33px 28px 45px;margin:1em 0;}
+.user-cite h3{font-size:15px;}
+.user-cite p{padding-top:0 !important;}
+.user-cite img{float:left;margin:0 10px 10px 0;}
+.user-cite span{color:#EF791C;font-size:11px;}
+.user-cite-data{border-top:3px solid #d5d5d5;margin-top:23px;padding-top:16px;text-align:right;}
+.node-type-testimony .editor .field{padding:0.5em 0;}
+.node-type-testimony .editor .field-label{padding-bottom:0.5em;}
+.testimony-view-more{display:block;margin-top:1em;}
+.testimony-view-more a{text-decoration:underline;}
+.field-name-field-testimony-photo-author{float:left;}
+.page-node-edit-testimony .field-name-field-testimony-photo-author,.page-node-add-testimony .field-name-field-testimony-photo-author{float:none;width:100%;}
+.node-testimony .content p{padding-bottom:10px;padding-top:0;}
+.call-list{color:#575757;font-size:12px;}
+.call-list h2{color:#575757;font-weight:700;}
+.call-list p{padding:12px 36px;}
+.call-list a{color:#f0944b;}
+.view-details{font-size:12px;}
+.view-details a{display:block;border-bottom:1px solid #EEE;color:#575757;padding:7px 0 10px 13px;}
+#block-ulima-blocks-ulima-blocks-dependency-calls .post-list-title{margin-bottom:23px;}
+#block-ulima-blocks-ulima-blocks-dependency-calls .readmore{}
+#block-ulima-blocks-ulima-blocks-dependency-calls{clear:both;margin-top:20px;}
+.view-last-call{padding:0 20px;}
+.view-last-call .views-row{padding-bottom:1em;}
+.view-last-call .call-file{display:block;margin:0px 0 20px 35px;}
+.view-last-call .call-file img{border:none;float:none;margin:0;padding:0;}
+.call-open{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) -285px -281px no-repeat;display:block;}
+.call-closed{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) -285px -250px no-repeat;}
+.publications-list h2 a{color:#575757;font-size:13px;}
+.publications-list h4{font-size:11px;}
+.publications-list li p{color:#6d6d6d;font-size:11px;padding-top:5px;}
+.publications-list img{margin-bottom:10px;}
+.post-list .publications-list li{border-right:1px solid #f0f0f0;padding:0 60px;margin:0;width:118px;}
+.publications-list .views-row-first{padding-left:40px !important;}
+.publications-list .views-row-last{border-right:none !important;}
+.comp-info .post{border-bottom:none;width:190px;}
+.comp-info .info-title{background:#D0CECE;height:21px;font-size:20px;padding:9px 22px 4px;}
+.comp-info .header-corner{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -14px -107px;}
+.comp-info li{height:300px;}
+.comp-info .readmore{float:left;margin-top:15px;}
+.highlight-post li h2{color:#252525;font-size:20px;line-height:20px;margin-top:10px;}
+.highlight-post li h2 a{color:#252525;}
+.highlight-post li p{padding-top:5px;}
+.post-list h2.title{font-size:20px;line-height:20px;}
+.post-list-title h2{color:#fff;display:block;float:left;font-size:20px;}
+.post-list-highlight h2{margin:5px 0;}
+.post-list-highlight p{line-height:16px;padding-top:7px;}
+.post-list .post h2{font-size:13px;}
+.post h2{color:#575757;font-size:15px;line-height:16px;margin:15px 0 5px;}
+.post h2 a{color:#575757;}
+.post h2 a:hover{color:#F68933;}
+.post p{color:#575757;clear:both;font-size:12px;line-height:17px;padding-top:7px;word-spacing:3px;}
+.post-data small{border-right:1px solid #b6b6b6;color:#6d6d6d;display:block;float:left;font-size:11px;line-height:11px;margin-right:5px;padding-right:5px;}
+.post-data small a{color:#f68933;text-decoration:none;}
+.post-data small a:hover{text-decoration:underline;}
+.megamenu .post-data{color:#AA5F23;height:13px;}
+.feature-info h4{display:block;height:42px;left:-3px;position:absolute;text-transform:uppercase;top:0;z-index:1;}
+.feature-info h3{background:url("sprite_repeat_x.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_repeat_x.png*/) repeat-x 2px -285px;font-size:13px;height:37px;margin-left:-10px;margin-right:-10px;margin-bottom:18px;text-transform:uppercase;}
+.feature-info .grid-alter-8 h3{margin-left:0;margin-right:0;}
+.feature-info h3 a{border-left:1px solid #fff;border-right:1px solid #d7d7d7;color:#777676;display:block;height:15px;padding:11px 10px;text-align:center;text-decoration:none;}
+.feature-info h3 a:hover{background:url("sprite_repeat_x.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_repeat_x.png*/) repeat-x 0 -185px;color:#f08e3f;}
+.feature-info .block-posts-first h3 a{border-left:none;}
+.feature-info .block-posts-last h3 a{border-right:none;}
+.sidebar .block{margin-bottom:1em;}
+.sidebar h2{background:#f1b586;color:#fff;font-size:21px;font-weight:700;height:22px;padding:8px 100px 7px 15px;position:relative;text-transform:uppercase;}
+.sidebar .block h3{color:#3f3f3f;font-size:13px;font-weight:400;margin-bottom:10px;}
+.sidebar #block-ulima-blocks-ulima-blocks-translate .content{margin-top:-35px;margin-bottom:-8px;text-align:right;}
+.sidebar .block-ulima-blocks .content a{margin:0 10px 0 5px;}
+.logged-in .sidebar .block-ulima-blocks .content{padding-right:82px;}
+.logged-in .sidebar #block-ulima-blocks-ulima-blocks-lib-search .content{padding-right:0;}
+.page-blogs .featured-content,.page-agenda .featured-content,.page-noticias .featured-content{background:#f1f1f1;margin-bottom:30px;}
+.hub-featured{position:relative;}
+.hub-featured img{display:block;}
+.hub-featured .views-row{padding-bottom:1em;}
+.hub-featured .view-content{margin:0 auto;width:925px;}
+.hub-featured .pager-current{display:none;}.hub-featured .post{height:100%;border-bottom:none;}
+.hub-featured .post-data{height:100%;}
+.hub-featured .pager-previous a,.hub-featured .pager-next a{height:36px;display:block;text-indent:-9999px;position:absolute;width:18px;z-index:99;font-size:0;display:block;line-height:0;text-transform:capitalize;}
+.hub-featured .pager-next a{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -254px -50px;right:3px;top:120px;}
+.hub-featured .pager-previous a{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat 0 -66px;left:3px;top:120px;}
+.hub-featured .category{clear:both;float:none;}
+.hub-featured .ajax-progress{background:none;position:absolute;left:0;top:0;}
+.hub-featured .ajax-progress .throbber{display:none;}
+.hub-featured .ajax-progress-throbber{background:#F1F1F1 url("ajax-loader.gif"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/ajax-loader.gif*/) no-repeat 465px center !important;height:100%;width:940px;opacity:0.7;}
+.big-list .post{height:100%;padding:15px 0;width:615px;}
+.big-list .post p{clear:both;padding-top:6px;line-height:19px;word-spacing:2px;}
+.big-list .post h2{margin-top:10px;}
+.big-list .post img{float:left;margin-right:20px;}
+.big-list .post-data{float:left;width:350px;}
+.big-list .category{clear:both;}
+.big-list .pager,.view-publications .pager{text-align:center;margin:10px auto 0;padding-top:30px;position:relative;}
+.big-list .pager li,.view-publications .pager li{display:inline;margin-right:10px;}
+.big-list .pager-current,.view-publications .pager{color:#575757;}
+.big-list .pager .ajax-progress-throbber{background:#FFF;position:absolute;opacity:0.8;left:-35px;width:200px;top:-5px;}
+.big-list .pager .ajax-progress .throbber{background:url("ajax-loader.gif"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/ajax-loader.gif*/) no-repeat 60px center !important;width:92px;height:32px;}
+.big-list .pager-next a{display:inline;text-indent:0;text-transform:none;font-size:14px;}
+.filter-block label{display:block;margin-bottom:5px;}
+#views-exposed-form-hub-blogs-page-1 h3,#views-exposed-form-hub-news-page-1 h3{color:#FFF;font-size:20px;}
+#views-exposed-form-hub-blogs-page-1 .block-header,#views-exposed-form-hub-news-page-1 .block-header{height:19px;padding-top:8px;}
+#views-exposed-form-hub-blogs-page-1 .views-exposed-widgets,#views-exposed-form-hub-news-page-1 .views-exposed-widgets{color:#525252;}
+.size-special{padding:16px;}
+#views-exposed-form-hub-blogs-page-1 label,#views-exposed-form-hub-news-page-1 label{font-size:16px;font-weight:400;}
+.sidebar .views-exposed-form select{padding:0.3em;width:227px;}
+.form-item.form-item-field-news-date-value-value-year,.form-item.form-item-field-blog-date-value-value-year{padding-right:3px;}
+#views-exposed-form-hub-blogs-page-1 .date-year select,#views-exposed-form-hub-blogs-page-1 .date-month select,#views-exposed-form-hub-news-page-1 .date-year select,#views-exposed-form-hub-news-page-1 .date-month select{margin-right:2px;width:110px;}
+#edit-submit-hub-blogs,#edit-submit-hub-news{margin:20px 0 0 -15px;}
+.view-hub-blogs,.view-hub-news{padding:0 15px;}
+.node{padding:0 20px;width:620px;}
+.node-title{border-bottom:1px solid #e9e9e9;color:#3f3f3f;font-size:28px;margin:20px 0 10px;padding-bottom:15px;}
+.node .node-title a{color:#636363;}
+.node table{display:block;margin:20px 0;max-width:619px;overflow:auto;table-layout:fixed;width:auto !important;}
+.node th,.node td,.node tr{border:1px solid #CCC;padding:10px 8px;}
+.node th{background:#BEBBB4;color:#FFF;}
+.no-border td img{border:none;}
+.meta-info{color:#888;font-size:11px;margin-bottom:12px;}
+.node .total-comments,.node .total-views{float:right;}
+.node-tags{margin-top:10px;}
+.node-tags h4{float:left;margin-right:5px;}
+.node-tags .field-item{display:inline;}
+.node-readmore{display:block;margin:1em 0 2em;}
+.node-teaser .links{margin:0;padding:0;}
+.node-teaser .node-readmore{display:block;margin:1em 0;}
+.node-teaser .node-readmore a{background:#F68933;color:#FFF;padding:0.2em 0.5em;}
+.node-teaser .node-readmore a:hover{background:#666;}
+.research-fields{margin-top:2em;}
+.research-fields li{margin-bottom:1em;}
+.container-1{background:#FFF;border:#E0E0E0 1px solid;color:#595959;clear:both;font-size:14px;margin:15px 0;padding:2px;}
+.container-1-inner{background:#F6F6F6;padding:10px 7px;}
+.container-1-links{float:right;}
+.container-1 h4{margin-bottom:5px;}
+.node .container-1 a:hover{color:#000;}
+img.file-icon{border:none;padding:0;}
+.file-field h4{margin-bottom:15px;}
+.file-field .file{font-size:11px;list-style:none;padding-top:6px;padding-bottom:5px;padding-right:0;text-transform:capitalize;}
+.file-field .field-item{margin:8px 0 5px 5px;}
+.field-name-field-news-file{font-size:11px;}
+.breadcrumb{color:#6A6B6C;font-size:12px;margin:-21px 0 20px 9px;}
+.comments{color:#666;border-top:1px solid #e3e0e0;padding:20px 0;position:relative;}
+.comments h2{padding-bottom:5px;}
+.comments textarea,.comments input{border:none;}
+.comments .block-header{padding:8px 15px 12px 10px;}
+.comments .title{margin-bottom:1em;}
+.comments .title a{color:#F08E3F;text-decoration:underline;}
+.comments .form-item{margin-bottom:1em;}
+.comments .description{font-size:11px;padding:0.4em 0 0;}
+.comments .form-required{color:#F08E3F;}
+.comments .form-text{display:block;width:98%;}
+.comments .form-textarea{width:100%;}
+.captcha .fieldset-legend{padding:1em 0 0.5em;}
+.captcha .fieldset-description{float:left;width:65%;}
+.captcha img{float:right;width:30%;}
+.form-item-captcha-response{clear:both;}
+.comment-container{border-bottom:1px solid #e3e0e0;padding:10px 0 20px 10px;}
+.comment-container p{padding:0 10px 0 0;text-align:left;}
+.comment-body{float:left;line-height:1.5;text-align:right;overflow:hidden;width:65%;}
+.comment-user-data{float:right;text-transform:capitalize;}
+.comment-user-data .author-data{float:right;text-transform:capitalize;}
+.comment-user-data small{text-transform:none;}
+.comment-author .username{text-align:center;}
+.user-picture{float:left;margin-right:10px;width:60px;}
+.user-picture img{height:40px;display:block;margin:0 auto 1.2em;width:40px;}
+.author-data{float:left;width:130px;}
+.comment-user-data small{color:#919191;font-size:11px;}
+.comment-fields-container{background:url("bg_comment_anonymous_pic.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/bg_comment_anonymous_pic.png*/) 15px 25px no-repeat #f6f5f5;margin-bottom:10px;margin-top:40px;padding:25px 37px 15px 67px;position:relative;}
+.comment-fields-container .form-item label{clear:both;color:#999;display:block;font-size:0.8em;padding:0 0 3px;}
+.comment-fields-container #user-login-form a{font-size:0.8em;}
+.comment-fields-container #user-login-form a:hover{color:#F68933;text-decoration:underline;}
+.comment-fields-container #user-login-form .form-submit{cursor:pointer;display:block;font-size:0.8em;height:28px;margin-top:10px;width:110px;}
+.comment-tabs{left:0;position:absolute;top:-35px;}
+.comment-tabs li{float:left;padding:5px;-webkit-border-radius:3px 3px 0  0;-moz-border-radius:5px 5px 0  0;border-radius:5px 5px 0  0}
+.comment-tabs li.active{background:#F6F5F5;}
+.comment-tabs a{display:block;height:25px;text-indent:-9999px;overflow:hidden;width:98px;}
+.comment-tabs a:focus{outline:none;}
+#guest-login{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -118px -97px;}#ulima-login{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -200px -157px;}
+.event-block-title{color:#A7A7A7;font-size:14px;float:left;margin-right:5px;}
+.event-date{clear:both;height:19px;padding:15px 5px 0 0;}
+.event-hour{background:url("clock.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/clock.png*/) no-repeat center left;height:30px;float:right;margin-top:-13px;padding-top:10px;padding-left:37px;}
+.events-where{background:url("bg_where.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/bg_where.png*/) no-repeat 558px center #F6F6F6;padding:20px 5px;}
+.events-where .field-name-field-event-where{padding-bottom:10px;}
+.field-name-field-event-address{width:540px;}
+.events-price .field-label,.events-address .field-label,.events-where .field-label{color:#A7A7A7;font-family:'BertholdImagoBold';font-size:14px;font-weight:400;float:left;margin-right:5px;}
+.events-price div{display:inline;}
+.signup-button{float:left;margin:20px 0 5px;}
+.page-signup-cancel .content{margin:1em;}
+.page-signup-cancel form{line-height:2;}
+.page-signup-cancel .form-submit{margin-right:1em;padding:0.5em;}
+.signup-number{color:#666;clear:both;font-size:11px;width:201px;}
+.view-signup-user-list .views-field-name img,.view-signup-user-list .views-field-signup-time img{float:right;}
+.field-name-field-event-price{line-height:1.5;}
+.sidebar .block-poll .content,.sidebar .blockpoll .content{padding:20px;}
+.sidebar .block-poll .poll{color:#434343;font-size:12px;}
+.sidebar .block-poll .poll .title{color:#3F3F3F;font-size:13px;font-weight:700;margin-bottom:10px;}
+.sidebar .block-poll .poll .text{padding:3px 0;}
+.sidebar .block-poll .poll .percent{font-weight:700;padding:2px 0;}
+.sidebar .block-poll .poll .total{font-weight:700;padding:5px 0;}
+.sidebar .block-poll .links{font-size:12px;display:none;margin-top:10px;padding:5px 0;}
+.sidebar .block-poll .links li{padding:3px 0;}
+.sidebar .block-poll .poll .bar .foreground{background:#F1B586;}
+.sidebar .block-poll .poll .bar{background:#ccc;}
+.sidebar .block-poll .poll .vote-form .choices{margin-left:0;}
+.sidebar .block-poll .poll .vote-form .form-submit{font-size:18px;padding:0;width:80px;}
+.sidebar .poll input{margin:5px 0;width:auto;}
+.tabs-spc{background:#676666;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;font-size:12px;padding:5px 8px;position:absolute;right:0;top:-38px;}
+.tabs-spc a{color:#fff;}
+.sidebar .block .publciation-filter h3{color:#fff;font-size:28px;}
+.publication-filter .block-category h3{color:#fff;font-size:20px;height:25px;padding-top:8px;}
+.sidebar #views-exposed-form-publications-page-1 .form-submit{font-size:18px;padding-top:0;width:100px;}
+.sidebar #views-exposed-form-publications-page-1 .filter-block{padding:0 20px;}
+.sidebar #views-exposed-form-publications-page-1 .form-text{width:204px;}
+.views-exposed-form .views-widget-filter-field_publication_type_value cation-filter size-special{width:100%;}
+#views-exposed-form-publications-page-1{color:#575757;}
+.form-type-bef-checkbox,.form-item-field-publication-type-value-0{float:left;margin-right:20px;}
+.form-type-bef-checkbox input,.form-item-field-publication-type-value-0 input,.form-item-field-publication-type-value-1 input{width:auto !important;}
+.form-type-bef-checkbox label,.form-item-field-publication-type-value-0 label,.form-item-field-publication-type-value-1 label{display:inline;font-weight:normal;}
+.publication-filter.size-special{padding:0;}
+.publication-filter .corner-right-orange{bottom:8px;right:-47px;}
+.publication-filter .views-exposed-form .views-exposed-widget{width:160px;}
+form .publication-filter .views-exposed-form .views-exposed-widget input{margin-top:4px !important;}
+.publication-filter .form-submit{padding:5px 0 2px;}
+.publication-filter .form-submit:hover{-webkit-box-shadow:0px 0px 15px #666;-moz-box-shadow:0px 0px 15px #666;box-shadow:0px 0px 15px #666;}
+.social-widgets li{display:block;float:left;margin-left:10px;}
+.social-widgets .plusone-widget{margin-left:20px;}
+.view-courses{padding:12px 22px;}
+.view-courses h3{font-size:16px;}
+.view-courses .ul-container{border-bottom:1px solid #EEE;margin-bottom:10px;}
+.view-courses li li{border:none;margin-bottom:5px;}
+.view-courses .view-details a{border:none;}
+#block-views-courses-block-1 h2{color:#FFF;}
+.price .field{float:left;width:100px;}
+.price .currency{float:left;width:22px;}
+.courses-sidebar.view-courses{padding:0;}
+.courses-sidebar .course-title{background:none;font-size:11px;font-weight:bold;padding:5px 0 3px 0;}
+.courses-sidebar .calendar-date{margin:0 12px 0 0;}
+.courses-second-container{float:left;width:178px;}
+.courses-category a{color:#F68933;}
+.courses-category a:hover{text-decoration:underline;}
+.view-ulima-calendar .views-exposed-widget{padding:0;width:370px;}
+.view-ulima-calendar .views-submit-button{width:120px;}
+.view-ulima-calendar form .views-submit-button #edit-submit-ulima-calendar{font-size:15px;height:26px;padding-top:2px;width:94px;}
+.view-ulima-calendar .views-exposed-widget label,.view-ulima-calendar .views-exposed-widget select,.view-ulima-calendar .views-exposed-widget input{float:left;}
+.view-ulima-calendar .views-exposed-widget label{padding:6px 20px 0 0;}
+.view-ulima-calendar form .views-exposed-widgets #edit-submit-ulima-calendar{margin-top:0 !important;}
+.view-ulima-calendar .views-exposed-widgets{margin:0;padding:20px 0 20px 40px;}
+.buy-button{background:url("buy_button_bg.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/buy_button_bg.png*/) no-repeat;display:block;height:88px;width:252px;}
+.ulima-error{padding:20px;text-align:center;}
+.ulima-error h2{font-size:50px;}
+.buy-confirmation{background:#F68933;color:#FFF;margin:10px 20px;text-align:center;padding:20px;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;}
+.buy-error{background:#f38080;}
+buy-confirmation .buy-options p{color:#FFF;}
+.buy-confirmation .buy-options a{color:#FFF;text-decoration:underline;}
+.buy-confirmation div{padding:5px 0;}
+.buy-confirmation h4{font-size:40px;}
+.buy-confirmation p{padding:10px 0;}
+.buy-confirmation dl{margin:10px 0;}
+.buy-confirmation dd{font-weight:bold;padding:10px 0;text-transform:uppercase;}
+.buy-confirmation .buy-options button,.button-print{border:none;background:none;color:white;text-decoration:underline;cursor:pointer;}
+.buy-confirmation .buy-options button:hover,.button-print:hover{text-decoration:none;}
+.footer{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:url("logo_footer.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/logo_footer.png*/) #333 no-repeat 575px 106px;clear:both;margin:28px 0;padding:28px 30px 85px;}
+.footer a:hover{color:#F68933 !important;}
+.footer h2{padding-bottom:4px;}
+.footer h3{background:url("sprite_repeat_x.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_repeat_x.png*/) repeat-x 0 -222px;padding-bottom:37px;}
+.footer .block{float:left;padding-right:45px;}
+.footer .list li{padding-bottom:5px;padding-top:5px;width:125px;}
+.footer-region{float:left;width:511px;}
+.footer-1{margin-right:59px;}
+.footer-2{width:330px;}
+.footer-2 .block{float:right;margin-top:25px;padding:0;width:206px;}
+.footer-2 li{padding:3px 0;}
+#block-block-3{margin-top:7px;}
+#block-block-3 ul{height:30px;}
+#block-block-3 li{display:block;float:left;padding-right:8px;}
+.facebook-icon a,.twitter-icon a,.youtube-icon a{display:block;float:left;height:30px;width:31px;}
+.facebook-icon a{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -146px -1px;}
+.twitter-icon a{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -211px -1px;}
+.youtube-icon a{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -139px -32px;}
+.facebook-icon a:hover{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -178px 0;}
+.twitter-icon a:hover{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -246px -1px;}
+.youtube-icon a:hover{background:url("sprite_base.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_base.png*/) no-repeat -172px -32px;}
+#block-views-banners-movie-block-1{float:left;width:677px;}
+.billboard-block{font-size:12px;float:left;margin:0 12px;width:259px;}
+.billboard-block h3{border-bottom:1px solid #F68933;color:#FFF;font-family:'BertholdImagoBold';font-size:20px;margin-bottom:1px;padding:15px 50px 10px;}
+.billboard-block .views-row{clear:both;margin:7px 0;}
+.billboard-block img{float:left;margin-right:15px;}
+.billboard-block a{color:#FFF;}
+.billboard-block a:hover{text-decoration:underline;}
+.billboard-block li{}
+.billboard-block .more-link{right:5px;bottom:5px;position:absolute;width:65px;}
+.billboard-block .more-link a{background:#F0944B;display:block;padding:6px 5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.billboard-list li{font-size:13px;}
+.movie-time{color:#F68933;display:block;padding-top:5px;}
+.node-type-movie .node img{border:none;margin:0 10px 0 0;padding:0;}
+.field-name-field-movie-image{float:left;}
+.page-node-1121 .highlighted-content{height:327px;}
+.view-banners-movie{float:left;height:327px;position:relative;width:677px;}
+.view-banners-movie li{height:327px;}
+.view-banners-movie li img{height:327px;}
+.view-banners-movie .views-row-2{display:none;}
+.pager-slide img{height:51px !important;width:47px;}
+.pager-slide{bottom:77px;left:432px;position:relative;width:245px;z-index:9999;}
+.pager-slide img{height:51px !important;width:47px;}
+.pager-slide li{float:left;height:20px;margin:5px;}
+.movie-banner-info{background:url("transparent_bg.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/transparent_bg.png*/);bottom:0;color:#FFF;padding:20px;position:absolute;width:677px;z-index:999;}
+.movie-banner-info h2{font-size:30px;padding-bottom:4px;}
+.view-billboard li.views-row,.view-movies li.views-row{padding:0 20px;}
+.view-billboard .publications-list .views-row-first,.view-movies .publications-list .views-row-first{padding-left:15px !important;}
+.movie-list li{margin:20px 0;}
+.movie-list img{border:none;float:left;margin:0 10px 0 0;padding:0;}
+.movie-list h2{padding:30px 0 0;}
+.movie-block img{border:none;float:none;margin:0 auto;padding:0;}
+.movie-block h2{margin-top:5px;text-align:center;}
+.view-billboard.movie-list h2{padding:0.5em 0;}
+.movie-list h2 a{color:#F68933;font-size:17px;}
+.movie-list .views-field-field-movie-billboard{font-size:12px;font-style:italic;}
+.movie-list .views-field-body{font-size:13px;margin:0.5em 0 1em;}
+.movie-list li p{padding-top:0;}
+.page-ventanaindiscreta .highlighted-content{height:327px;}
+.field-name-field-movie-billboard .field-item{padding:0.5em 0;}
+.ic-data{margin-top:20px;}
+.ic-data .field-label{padding:3px 0 0 0;}
+.ic-data a,.ic-data .field-label{font-size:12px;font-weight:400;}
+.ulima-map-container{margin:0 20px 20px;width:920px;}
+.ulima-map-container fieldset{display:block;float:left;margin:0 20px 20px 0;}
+.last-comments{text-transform:capitalize;}
+.last-comments p{background:#E2E2E2;color:#666;line-height:15px;padding:10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.last-comments h3{background:url("balloon_arrow.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/balloon_arrow.png*/) no-repeat center 0;padding-top:20px;}
+.page-search-node .body-container .main-content .content{padding-left:50px;padding-right:50px;}
+.page-search-node .search-result{border-bottom:1px solid #E2E2E2;padding-bottom:15px;}
+.page-search-node h3 a{color:#575757;font-size:15px;}
+.search-info{font-size:12px;}
+.page-search-node .search-snippet-info .search-snippet{line-height:19px;word-spacing:2px;}
+.page-search-node .search-result .search-info{font-size:11px;}
+.search-info a:hover{color:#F68933;text-decoration:underline;}
+.page-search-node h3 a:hover{color:#F68933;}
+.page-search-node .body-container .main-content .content h2{font-size:12px;padding:20px 0;}
+.page-search-node .search-results .search-snippet-info{padding-left:0;}
+.page-search-node .search-results .title a{font-weight:bold;}
+.search-form .form-type-textfield label,.search-advanced a{color:#F68933;font-size:13px;padding-left:15px;}
+.page-search-node .pager li{float:left;padding:30px 10px 8px 0;}
+.page-search-node .pager .pager-next a{display:inline;font-size:100%;}
+.view-faculty-events h3{color:#F68933;font-size:11px;}
+.node .link-popup a{box-shadow:0 0;color:white;clear:both;font-size:16px;float:left;margin:10px 0;padding-left:10px;padding-right:10px;width:auto !important;}
+.node .link-popup a:hover{-moz-box-shadow:0 0 12px #CCC;-webkit-box-shadow:0 0 12px #CCC;box-shadow:0 0 12px #CCC;color:white;font-size:16px;float:left;padding-left:10px;padding-right:10px;width:auto !important;}
+.menu-page{margin:0 20px;}
+.menu-page li{background:url("sprite_bullets.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_bullets.png*/) no-repeat 0 11px;font-size:14px !important;padding:10px 0 0 20px;}
+.menu-page h3{margin-top:20px;font-size:18px !important;font-weight:400 !important;color:#707070;}
+.view-psychological-tests{color:#575757;}
+.view-psychological-tests h2{font-size:20px;margin:0 0 10px;}
+.view-psychological-tests .view-details a{}
+.view-psychological-tests .view-details a{font-size:16px;padding-left:15px;}
+h3.ptest-title{font-size:20px;margin:10px 0;}
+.view-psychological-tests li h3{font-size:14px;padding-left:20px;}
+.view-psychological-tests li h4{font-size:13px;padding:3px 0 10px 20px;}
+.node-type-ptest .field{border-bottom:dotted 1px #CCC;padding:15px 0;font-size:14px;}
+.node-ptest .field-label{float:none;padding:7px 0;}
+.node-ptest .node-title a{color:#d90f81;}
+.node-type-ptest .field.field-name-body{border-bottom:none;}
+.view-psychological-tests .views-submit-button{margin-top:19px;}
+.view-psychological-tests .views-submit-button .form-submit{font-size:16px;margin-top:0;padding:6px 10px 6px;width:auto;}
+.node-type-list{padding:1em 2em;}
+.node-type-list dt{font-weight:800;}
+.node-type-list dd{margin-bottom:1em;}
+.media-filter .form-text{color:#575757;border:1px solid #CCC;padding:0.5em;}
+.media-filter .views-exposed-widget input.form-text{margin-top:0 !important;}
+.maintenance-page{text-align:center;}
+.maintenance-page #page{margin:0 auto;width:960px;}
+.maintenance-page img{margin:2em 0;}
+.maintenance-page h1{font-size:20px;padding:0.3em 0;}
+.maintenance-page .messages,.maintenance-page #name-and-slogan{display:none;}
+.accordion-title{padding-left:1em;margin-top:1em;}
+.uncollapsed,.collapsed{cursor:pointer;padding-left:16px;}
+.product-info{padding:20px;}
+.page-node-submissions .main-content,.page-node-webform-results .main-content,.page-node-done .main-content,.page-group-node-subscribe .main-content,.page-node-delete .main-content{padding:1em;line-height:1.5;}
+.page-node-delete .form-submit{padding:0.5em 1em;margin-right:1em;}
+.view-researchs{padding:0 2em 1em;}
+.view-researchs .views-exposed-widgets{margin-bottom:1em;}
+.view-researchs .size-special{padding:0;}
+.view-researchs .views-row h2{padding:1em 0;}
+.view-researchs .form-text{border:1px solid #CCC;padding:0.8em;}
+.view-researchs .views-exposed-widget{padding-top:0;}
+.view-researchs .accordion-content{margin-left:14px;}
+.view-testimony .views-row{margin-left:15px;margin-right:15px;}
+.draggable a.tabledrag-handle{height:13px;}
+.page-taxonomy-term #block-system-main{padding-left:10px;}
+.block-rss-block img{border:none;padding:0;}
+.block-rss-block span{margin-left:5px;font-size:12px;vertical-align:4px;}
+.ulima-calendar-advanced-search h3,.grid-16 .block-rss-block h2{background:#D0CECE;color:white;padding:0.5em;font-size:18px;font-family:'BertholdImagoBold';}
+.grid-16 .block-rss-block .block-content{padding:1em;}
+.form-container{}
+.form-container .form-item{margin-bottom:0.5em;}
+.form-container .form-text{border:1px solid #CCC;padding:0.5em;width:100%;}
+.form-container .views-exposed-widgets{padding:0;}
+form .views-exposed-form .views-exposed-widget input{margin-top:0 !important;}
+.form-container .form-type-textfield{width:100%;}
+.form-container .date-year{width:100%;}
+.form-container .form-item-field-blog-date-value-value-year{margin-right:35px;}
+.form-container .form-item-field-blog-date-value-value-year,.form-container .form-item-field-blog-date-value-value-month{float:left;width:100px;}
+.sidebar .form-container .views-exposed-form select{margin:0;padding:0.3em;width:100%;}
+.form-container .container-inline-date > .form-item{margin:0;}.form-container .views-exposed-form .views-exposed-widget{float:none;margin-bottom:1em;padding:0;}
+.form-container #edit-submit-hub-blogs,.form-container #edit-submit-hub-news{margin:0;}
+#views-exposed-form-hub-news-search-advanced-news .form-text,#views-exposed-form-hub-blogs-search-advanced-blog .form-text{border:1px solid #CCC;padding:0.5em 0.2em;width:98%;}
+.language-switcher-locale-url img{border:none;padding:0;}
+.language-switcher-locale-url li{display:inline;}
+.language-switcher-locale-url .first{display:inline;margin-right:5px;}
+.view-promotions,.view-graduations{padding:0 1em;}
+.view-promotions li,.view-graduations li{font-size:12px;}
+.node-promotion .field-name-field-reusable-video{margin:1em 0;}
+.ulima-sitemap{padding:0 1em;}
+.ulima-sitemap li{font-size:13px;font-weight:bold;list-style:square inside;text-transform:capitalize;}
+.ulima-sitemap li li{font-weight:normal;padding-left:1em;}
+.imagefield-crop-widget img{border:none;padding:0;}
+.imagefield-crop-widget{border:1px solid #CCC;padding:1em;}
+.imagefield-crop-widget,.imagefield-crop-preview{margin-bottom:1em;}
+.publication-text-container{float:left;width:598px;position:relative;top:-9px;right:-321px;}
+.webform-client-form div fieldset.captcha{float:left;}
+form#webform-client-form-2948.webform-client-form div div.captcha img{float:left;width:25%;}
+form#webform-client-form-2948.webform-client-form div div.captcha div.form-item-captcha-response{clear:none;margin-left:12px;}
+div#node-2948.node div.content form#webform-client-form-2615.webform-client-form div div.captcha div.form-item div.description{display:none;}
+div#node-2948.node div.content form#webform-client-form-2615.webform-client-form div div.captcha div.form-item{margin-left:10px;margin-top:10px;}
+.views-field-picture{float:left;}
+.views-field-field-full-name{margin-left:78px;font-weight:bold;width:228px !important;}
+.views-field-nothing{margin-left:78px;}
+.user-list-edit-button{margin-left:78px;}
+.view-user-list tr{height:103px;}
+.view-user-list .view-content{padding:0 34px !important;}
+.views-field-nothing{font-size:13px;width:234px !important;}
+.publication-container div.field div.field-items div.field-item img{position:absolute;}
+html.js body.node-type-publication div.content-body div.container-16 div.content{height:472px;}
+div.content div.publication-container div.publication-text-container div.content{height:100% !important;}
+.editor{color:#444;font-size:13px;}
+.editor p{line-height:21px; 
+  word-spacing:2px;}
+  .editor img{float:left;margin:0 10px 10px 0;}
+  .editor em strong{font-style:italic;}
+  .editor strong em{font-weight:700;}
+  .editor ol,.editor ul{padding:2px 10px;margin:5px 0;}
+  .editor li{line-height:18px; 
+  padding:1px 0;word-spacing:2px;}
+  .editor ul li{list-style:square outside;padding-left:1px;margin-left:15px;margin-bottom:5px;}
+  .editor ol li{list-style:decimal outside;padding-left:1px;margin-left:15px;}
+  blockquote.editor-cite-1{background:#F9F9F9;border-left:#E6E6E6 5px solid;color:#636363;clear:both;display:block;font-family:georgia;font-style:italic;font-size:13px;margin:10px 0;padding:25px 27px;}
+  blockquote.editor-cite-2{background:#F9F9F9 url("editor-cite-quotes.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/editor-cite-quotes.png*/) no-repeat 5px 26px;border:#E6E6E6 1px solid;color:#424242;display:block;float:left;font-size:15px;margin:10px 20px 10px 0;padding:35px 30px;width:165px;}
+  h4.align-left,h3.align-left,td.align-left,p.align-left{text-align:left;}
+  h4.align-center,h3.align-center,td.align-center,p.align-center{text-align:center;}
+  h4.align-right,h3.align-right,td.align-right,p.align-right{text-align:right;}
+  h3.editor-h3-1{color:#575757;font-family:'BertholdImago';font-size:18px;font-weight:700;margin:15px 0 0;}
+  h4.editor-h4-1{font-family:'BertholdImago';font-size:15px;font-weight:700;margin:20px 0 0;}
+  p.editor-information{background:#F6F6F6 url("editor-information-icon.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/editor-information-icon.png*/) no-repeat 12px center;border:#E0E0E0 1px solid;color:#444;clear:both;font-size:12px;font-style:italic;margin:15px 0;min-height:30px;padding:22px 20px 22px 78px;}
+  ul.editor-list li{background:url("sprite_bullets.png"/*tpa=http://www.ulima.edu.pe/sites/all/themes/ulima/img/sprites/sprite_bullets.png*/) no-repeat 0 8px;list-style:none;padding:6px 0 0 25px;}
+  table.editor td,table.editor tr{border:1px solid #CCC;padding:10px 8px;}
+  table.editor th{background:#EEE;color:#3F3F3F;font-weight:bold;}
+  table.editor caption{background:#F8F8F8;color:#5C5C5C;font-weight:bold;padding:10px 8px;}
+  table.no-border td,table.no-border th,table.no-border tr{border:none;}
+  .editor pre{overflow:auto;padding-top:10px;width:100%;}
+  .editor .field-slideshow-pager{padding:0;}
+  .editor .field-slideshow-pager li{list-style:none;margin-left:0;padding-left:0;margin-right:2px;}
+  .editor .field-slideshow-pager li img{border:none;float:none;margin:0;padding:0;}
+  .field-name-field-news-gallery .field-slideshow-wrapper{margin-top:20px;}
+  .editor .field-name-field-blog-gallery{margin-top:15px;}
