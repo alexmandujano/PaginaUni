@@ -1,0 +1,8 @@
+.container-16{margin-left:auto;margin-right:auto;width:940px;}
+.grid-16{display:inline;float:left;position:relative;margin-left:10px;margin-right:10px;}
+.container-16 .grid-16{width:920px;}
+.alpha{margin-left:0;}
+.omega{margin-right:0;}
+html,body,div,span,h1,h2,p,a,ul,li{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;}
+ul{list-style:none;}
