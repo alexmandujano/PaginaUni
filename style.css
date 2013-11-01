@@ -1,6 +1,7 @@
 a
 {
 	color: #ffffff;
+	text-decoration: none;
 }
 
 body
@@ -16,8 +17,9 @@ header
 {
 	background: #562065;
 	color:#ffffff;	
-	padding: 0.5em;
+	padding: 2em;
 	text-align: left;
+
 }
 header #logo img
 {
@@ -37,30 +39,108 @@ header div
 header div ul,header div form
 {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 	margin-top: 3em;
+
+}
+nav{
+	background: #4e167a;
+
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 0px;
+	text-align: center;
+}
+nav ul li
+{
+display :inline-block;
+padding: 1em 1em 1em 1em ;
+border-right: 1px solid #a066ab;
+
+}
+nav ul  .first{
+ border-left: 1px solid #a066ab;
+ color:white;
+}
+section{
+	width: 56%;
+	border: 1px solid black;
+}
+aside , section{
+	display: inline-block;
+}
+
+.not {
+	width: 30%;
+	height: 10%;
+	display: inline-block;
+	padding: 2em;
+}
+#noticias{
+	margin-bottom: 1em;
+	border-bottom: 1px solid #2d2d2d;
+}
+
+#noticias .not figure h3 p{
+	
+	position: relative;
+}
+
+#menuizquierda{
+	float: left;
+	width: 20%;
+	border: 1px solid black;
+}
+#menuderecha{
+	float: right;
+	width: 20%;
+	border: 1px solid black;
+}
+
+#ya
+{
+	height: 25px;
 }
 #buscar,#ya{
 
 	display: inline-block;
 	vertical-align: top;
+	
 }
 #menutop
 {
 	background: black;
 	float:right;
-	position: relative;
+	
+	margin-right: 2em;
+
 
 }
 #menutop ul
 {
 	float:right;
-	padding:3px;
-
+	margin: 3px;
+	padding: 2px;
+    
 }
 #menutop ul li {
 	display: inline-block;
 	margin: 0 1.2em 0 0;
-	
+	font-size: 13px;
 
+	padding: 0px;
+	
+}
+
+#menuheader ul
+{
+	border-right: 1px solid #a066ab;
+	margin-right: 2em;
+	padding-right: 1.5em;
+	list-style: none;
+}
+#Slide{
+	margin: -16px 0px -5px 0px;
 }

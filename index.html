@@ -38,7 +38,7 @@
 	<nav>
 		<!-- Aqui va el menu de luisa -->
 		<ul>
-			<li><a href="#">Facultades</a></li>
+			<li class="first"><a href="#">Facultades</a></li>
 			<li><a href="#">cepu</a></li>
 			<li><a href="#">direccion</a></li>
 			<li><a href="#">transparencia</a></li>
@@ -49,19 +49,22 @@
 	</nav>
 	<div id="Slide">
 		<!-- aqui va lo que hizo andrea -->
+		<img src="slider.JPG">
 	</div>
 	<nav>
-		<li>Informacion para: </li>
-		<li><a href="#">Estudiante</a></li>
-		<li><a href="#">Futuros Estudiantes</a></li>
-		<li><a href="#">Facultad y Personal</a></li>
-		<li><a href="#">Alumno</a></li>
-		<li><a href="#">Padres y Familias</a></li>
+		<ul>
+			<li class="first" >Informacion para: </li>
+			<li><a href="#">Estudiante</a></li>
+			<li><a href="#">Futuros Estudiantes</a></li>
+			<li><a href="#">Facultad y Personal</a></li>
+			<li><a href="#">Alumno</a></li>
+			<li><a href="#">Padres y Familias</a></li>
+		</ul>
 	</nav>
 		<!-- barra costado -->
-	<aside>
+	<aside id="menuizquierda">
 		<h2>EXPLORE</h2>
-		<nav>
+		<div>
 			<ul>
 				<li><a href="">Medicina</a></li>
 				<li><a href="">Ing.Sistemas</a></li>
@@ -74,50 +77,53 @@
 				<li><a href="">Veterinaria</a></li>
 				<li><a href="">Otros</a></li>
 			</ul>
-		</nav>
+		</div>
 	</aside>
-	<section>
+	<section >
+
 		<h2>NOTICIAS</h2>
-		<article>
+		<div id ="noticias" >
+		<article class="not">
 			<figure>
-				<img src="#"/>
+				<img src="not1.jpg"/>
+			</figure>
+			<h3><a href="#">Ganar significa mantenerse en la cima de las noticias</a></h3>
+			<p>
+			Los jugadores pueden retar a sus amigos mientras que cada vez más alfabetizada noticia.
+			</p>
+		</article >
+		<article class="not">
+			<figure>
+				<img src="not2.jpg"/>
 			</figure>
 			<h3><a href="#">Ganar significa mantenerse en la cima de las noticias</a></h3>
 			<p>
 			Los jugadores pueden retar a sus amigos mientras que cada vez más alfabetizada noticia.
 			</p>
 		</article>
-		<article>
+		<article class="not">
 			<figure>
-				<img src="#"/>
+				<img src="not1.jpg"/>
 			</figure>
 			<h3><a href="#">Ganar significa mantenerse en la cima de las noticias</a></h3>
 			<p>
 			Los jugadores pueden retar a sus amigos mientras que cada vez más alfabetizada noticia.
 			</p>
 		</article>
-		<article>
+		<article class="not">
 			<figure>
-				<img src="#"/>
+				<img src="not2.jpg"/>
 			</figure>
-			<h3><a href="#">Ganar significa mantenerse en la cima de las noticias</a></h3>
-			<p>
-			Los jugadores pueden retar a sus amigos mientras que cada vez más alfabetizada noticia.
-			</p>
-		</article>
-		<article>
-			<figure>
-				<img src="#"/>
-			</figure>
-			<h3><a href="#">Ganar significa mantenerse en la cima de las noticias</a></h3>
+			<h3><a href="#">Ganar significa mantenerse en la cima de la noticias</a></h3>
 			<p>
 			Los jugadores pueden retar a sus amigos mientras que cada vez más alfabetizada noticia.
 			</p>
 		</article>	
-	</section>
-	<!-- //PARTE MEDIO BAJO  -->
-	<section>
-		<article>
+	
+	</div>
+		
+	<div id="eventos">
+		<article id="event" >
 			<h2>FEATURES EVENT</h2>
 			<div>
 			<p>Oct</p>
@@ -128,7 +134,7 @@
 			<p>10:00 am - 10:00 pm</p>
 
 		</article>
-		<article>
+		<article  id="event" >
 			<h2>FEATURES EVENT</h2>
 			<div>
 			<p>Oct</p>
@@ -139,7 +145,7 @@
 			<p>10:00 am - 10:00 pm</p>
 
 		</article>
-		<article>
+		<article  id="event">
 			<h2>FEATURES EVENT</h2>
 			<div>
 			<p>Oct</p>
@@ -150,10 +156,11 @@
 			<p>10:00 am - 10:00 pm</p>
 
 		</article>
-
+	</div>
+		
 	</section>
 	<!-- PARTE DERECHA -->
-	<aside>
+	<aside id="menuderecha">
 		<div>
 			
 				<h2>CLOSEUP</h2>
