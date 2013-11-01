@@ -76,6 +76,7 @@ aside , section{
 	width: 30%;
 	height: 10%;
 	display: inline-block;
+	position:relative;
 	padding: 2em;
 }
 #noticias{
@@ -87,7 +88,7 @@ aside , section{
 	
 	position: relative;
 }
-
+    
 #menuizquierda{
 	float: left;
 	width: 20%;
@@ -143,4 +144,66 @@ aside , section{
 }
 #Slide{
 	margin: -16px 0px -5px 0px;
+}
+
+.event
+{
+	
+	position: relative;
+	border: 3px #a066ab solid;
+	font-size: 14px;
+	margin: 0em 3em 0em 3em;
+}
+
+.event .contenido{
+	
+	width: 360px;
+	margin-left:2em;
+	position: relative;
+}
+
+
+.event .fecha , .event .contenido{
+	display: inline-block;
+	
+
+}
+.event .contenido .datos-event
+{
+	
+	float:left;
+
+}
+.event .contenido .datos-event .getevent{
+	
+	color:#562065;
+}
+.event .fecha
+{
+	float: left;
+	width: 50px; 
+	background: #562065;
+	color:white;
+	padding: 0px;
+	position: relative;
+	text-align: center;
+}
+.event .fecha .mes{
+	padding: 4px;
+	border-bottom: 1px white solid;
+
+}
+.event .fecha .dia{
+	padding: 4px;
+	
+
+}
+.event .contenido .eventcontent{
+	float: left;
+
+	
+}
+.event .contenido .hora{
+	float: left;
+	color:#4d0a18;
 }
