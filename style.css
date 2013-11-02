@@ -6,18 +6,28 @@ a
 
 body
 {
-	background: #d4d4d4;
+	background-image: url("fondo.jpg");
+	background:-repeat:repeat;
 	color:#2c2c2c;
 	font-family:Arial;
 	font-size: 16px;
 	margin: 0px;
+	height: 100%
 }
 
 header
 {
-	background: #562065;
+	background: rgb(72,2,86); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(72,2,86,1) 42%, rgba(140,5,170,1) 72%, rgba(72,2,86,1) 95%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(42%,rgba(72,2,86,1)), color-stop(72%,rgba(140,5,170,1)), color-stop(95%,rgba(72,2,86,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, rgba(72,2,86,1) 42%,rgba(140,5,170,1) 72%,rgba(72,2,86,1) 95%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, rgba(72,2,86,1) 42%,rgba(140,5,170,1) 72%,rgba(72,2,86,1) 95%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(72,2,86,1) 42%,rgba(140,5,170,1) 72%,rgba(72,2,86,1) 95%); /* IE10+ */
+background: linear-gradient(45deg, rgba(72,2,86,1) 42%,rgba(140,5,170,1) 72%,rgba(72,2,86,1) 95%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#480256', endColorstr='#480256',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 	color:#ffffff;	
-	padding: 2em;
+	padding: 0.5em 6em 0.5em 6em;
 	text-align: left;
 
 }
@@ -44,7 +54,7 @@ header div ul,header div form
 
 }
 nav{
-	background: #4e167a;
+	background: #530263;
 
 }
 
@@ -58,6 +68,7 @@ nav ul li
 display :inline-block;
 padding: 1em 1em 1em 1em ;
 border-right: 1px solid #a066ab;
+font-weight: bold;
 
 }
 nav ul  .first{
@@ -66,7 +77,8 @@ nav ul  .first{
 }
 section{
 	width: 56%;
-	border: 1px solid black;
+	
+	
 }
 aside , section{
 	display: inline-block;
@@ -81,7 +93,8 @@ aside , section{
 }
 #noticias{
 	margin-bottom: 1em;
-	border-bottom: 1px solid #2d2d2d;
+	border-bottom: 2px #530263 solid;
+	border-bottom-z: 75%;
 }
 
 #noticias .not figure h3 p{
@@ -92,12 +105,14 @@ aside , section{
 #menuizquierda{
 	float: left;
 	width: 20%;
-	border: 1px solid black;
+
 }
 #menuderecha{
 	float: right;
 	width: 20%;
-	border: 1px solid black;
+-webkit-box-shadow: -29px 5px 31px -14px rgba(186,184,186,1);
+-moz-box-shadow: -29px 5px 31px -14px rgba(186,184,186,1);
+box-shadow: -29px 5px 31px -14px rgba(186,184,186,1);
 }
 
 #ya
@@ -144,13 +159,19 @@ aside , section{
 }
 #Slide{
 	margin: -16px 0px -5px 0px;
+	
 }
+#Slide img{
+	
 
+	width: 100%
+
+}
 .event
 {
 	
 	position: relative;
-	border: 3px #a066ab solid;
+	
 	font-size: 14px;
 	margin: 0em 3em 0em 3em;
 }
@@ -206,4 +227,53 @@ aside , section{
 .event .contenido .hora{
 	float: left;
 	color:#4d0a18;
+}
+
+#carrera ul {
+	list-style: none;
+	padding-left: 20px;
+	margin-right: 1em;
+}
+
+#carrera ul li {
+	padding: 1em 0em 1em 2em;
+	background: #1E303A;
+	display: block;
+	border-bottom: 1px white solid;
+
+
+}
+#carrera ul li:hover {
+	
+	background: black;
+	color:white;
+
+}
+.aside{
+	padding: 20px;
+
+}
+#noticias a, .aside a{
+	color: #530263;;
+}
+#noticias:nth-child(odd){margin-right:2%}
+footer{
+	background: rgb(89,3,107); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(89,3,107,1) 0%, rgba(39,1,48,1) 51%, rgba(72,2,86,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(89,3,107,1)), color-stop(51%,rgba(39,1,48,1)), color-stop(100%,rgba(72,2,86,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  rgba(89,3,107,1) 0%,rgba(39,1,48,1) 51%,rgba(72,2,86,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  rgba(89,3,107,1) 0%,rgba(39,1,48,1) 51%,rgba(72,2,86,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  rgba(89,3,107,1) 0%,rgba(39,1,48,1) 51%,rgba(72,2,86,1) 100%); /* IE10+ */
+background: linear-gradient(45deg,  rgba(89,3,107,1) 0%,rgba(39,1,48,1) 51%,rgba(72,2,86,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59036b', endColorstr='#480256',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	color:rgba(255,255,255,0.5);
+	width: 100%;
+	height: 100px;
+    display:block;
+    position: absolute;
+    margin: 6em auto auto auto; 
+    text-align: center;
+    padding: 2em 0em 0em 0em ;
+
 }
